@@ -5,7 +5,7 @@ function clean(){ //cria uma função clean.
     document.form.textbox.value = ''; //atribui um valor de string vazia ao objeto textbox.
 }
 function total(){ //cria uma função total.
-    var x = document.form.textbox.value; //cria uma váriavel x e dentro dela atribui-se o valor do objeto textbox.
+    var x = document.form.textbox.value; //cria uma váriavel x e dentro dela atribui o valor do objeto textbox.
     if(x){ //Verifica se X é verdadeiro.
         document.form.textbox.value = eval(x); //Se for, realiza uma operação usando os valores presentes no objeto textbox.
     }
